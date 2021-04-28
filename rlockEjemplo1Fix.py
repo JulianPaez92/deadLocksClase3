@@ -21,9 +21,6 @@ def funcB():
     finally:
         lock.release()
 
-
-
-
 t1 = threading.Thread(target=funcA)
 t2 = threading.Thread(target=funcB)
 
